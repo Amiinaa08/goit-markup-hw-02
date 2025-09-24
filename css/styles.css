@@ -1,0 +1,32 @@
+body {
+  font-family: Roboto, Verdana, sans-serif;
+}
+
+/* #region nav */
+.nav-link {
+  color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+/* #endregion */
+
+.address-link {
+  color: #434455;
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;
+}
+
+.section-button {
+  color: white;
+  background-color: #4d5ae5;
+}
+
+.section-button:hover {
+  background-color: #404bbf;
+}
