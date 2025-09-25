@@ -95,7 +95,7 @@ ul {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  letter-spacing: 0.02rem;
+  letter-spacing: 0.02em;
 }
 
 .section-list-headline {
