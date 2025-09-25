@@ -1,12 +1,23 @@
+/* #region tags */
 body {
-  font-family: Roboto, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
+  background-color: #ffffff;
+  letter-spacing: 0.02em;
 }
 
+ul {
+  list-style-type: none;
+}
+/* #endregion */
+
+/* #region header */
+/* #region logo */
 .logo {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 0.03em;
   color: #4d5ae5;
   font-size: 18px;
   font-weight: bold;
@@ -22,6 +33,7 @@ body {
 .footer-logo-span {
   color: #f4f4fd;
 }
+/* #endregion */
 
 /* #region nav */
 .nav-link {
@@ -30,9 +42,10 @@ body {
   font-weight: 500;
 }
 
-.address-link {
+.contacts-list {
   color: #434455;
   text-decoration: none;
+  font-style: normal;
 }
 
 .nav-link:hover,
@@ -45,30 +58,43 @@ body {
 .address-link:focus {
   color: #404bbf;
 }
+/* #endregion */
 
-.section-button {
-  color: white;
-  background-color: #4d5ae5;
-  cursor: pointer;
-}
-
-.section-button:hover {
-  background-color: #404bbf;
-}
-
-h1 {
+/* #region main */
+.main-headline {
   color: #ffffff;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
 }
 
-h2 {
-  font-size: 36px;
-  line-height: 1.11;
+.section-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: white;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 
-h3 {
+.section-button:hover,
+.section-button:focus {
+  background-color: #404bbf;
+}
+
+.section-headline {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.section-list-headline {
+  color: #2e2f42;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
@@ -81,15 +107,14 @@ h3 {
   background-color: #f4f4fd;
 }
 
-footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
-}
-
 .team-list-item {
   background-color: #ffffff;
 }
+/* #endregion */
 
-ul {
-  list-style-type: none;
+/* #region footer */
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
 }
+/* #endregion */
