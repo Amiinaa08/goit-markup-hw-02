@@ -54,6 +54,10 @@ ul {
 }
 /* #endregion */
 
+.address-link {
+  color: #434455;
+}
+
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
@@ -66,6 +70,7 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .section-button {
@@ -90,6 +95,7 @@ ul {
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: 0.02rem;
 }
 
 .section-list-headline {
@@ -97,6 +103,7 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .order-section {
